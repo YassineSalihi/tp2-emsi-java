@@ -11,15 +11,13 @@ public class Personne {
     private static int compteur = 0;
 
     public Personne(String nom, String prenom, String mail, String telephone, double salaire) {
-        this.id = ++compteur; // auto-incrémentation
+        this.id = ++compteur;
         this.nom = nom;
         this.prenom = prenom;
         this.mail = mail;
         this.telephone = telephone;
         this.salaire = salaire;
     }
-
-    public Personne() {}
 
     public double calculerSalaire() {
         return salaire;
