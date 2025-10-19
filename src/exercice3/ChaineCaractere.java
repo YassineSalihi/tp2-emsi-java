@@ -109,15 +109,15 @@ public class ChaineCaractere {
     static void main() {
 
         Scanner sc = new Scanner(System.in);
-        // System.out.println("==== 1 ====");
-        // System.out.println("entrer une chaine de caractere : ");
-        // arretSaisie();
-        //System.out.println("==== 2 ====");
-        //System.out.println("Entrer un seul charactere : ");
-        //char a = sc.next().charAt(0);
-        //presenceCara(a);
-        //System.out.println("==== 3 ====");
-        //inverseChaine();
+//         System.out.println("==== 1 ====");
+//         System.out.println("entrer une chaine de caractere : ");
+//         arretSaisie();
+//        System.out.println("==== 2 ====");
+//        System.out.println("Entrer un seul charactere : ");
+//        char a = sc.next().charAt(0);
+//        presenceCara(a);
+//        System.out.println("==== 3 ====");
+//        inverseChaine();
 //        System.out.println("==== 4 ====");
 //        System.out.println("Enter string 1");
 //        String s1 = sc.nextLine();
@@ -128,7 +128,6 @@ public class ChaineCaractere {
 //        compteLettre();
         System.out.println("==== 6 ====");
         presenceVoyelle();
-
 
     }
 }

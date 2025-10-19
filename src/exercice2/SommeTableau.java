@@ -18,6 +18,6 @@ public class SommeTableau {
             System.out.println("You entered " + nombres[i]);
             s = s + nombres[i];
         }
-        System.out.println("Somme de Tableau de " + Arrays.toString(nombres) + "element est : " + s);
+        System.out.println("Somme de Tableau de " + Arrays.toString(nombres) + " element est : " + s);
     }
 }
